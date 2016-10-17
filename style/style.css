@@ -1,18 +1,8 @@
-/*
-body{
-  background-color: DeepSkyBlue;
-}
-*/
 
 header{
   text-align: center;
   font-size: 25px;
 }
-
-body{
-  background-color: white;
-}
-
 .nav{
   list-style-type: none;
   margin: 0;
@@ -51,4 +41,32 @@ body{
 #bandnames img{
   max-width: 100%;
   height: auto;
+}
+
+/* GreenDay Page
+*/
+#greenD{
+  float: left;
+  max-width: 50%;
+  height: auto;
+}
+
+#greenPara p{
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+/*Sum 41 Page
+*/
+#sumPic{
+  float: left;
+  max-width: 60%;
+  height: auto;
+  margin-right:20px;
+  margin-bottom: 20px;
+}
+
+#sumPara{
+  text-indent: 20px;
+  font-size: 20px;
 }
