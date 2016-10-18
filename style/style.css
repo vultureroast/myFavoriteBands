@@ -1,3 +1,8 @@
+body{
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ddd3c9 , #f4f1f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 header{
   text-align: center;
@@ -34,39 +39,51 @@ header{
   color: white
 }
 
-#bandnames{
+.bandInfo{
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+.bandInfoUnder{
+  clear: left;
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+.bandnames{
   list-style-type: none;
 }
 
-#bandnames img{
-  max-width: 100%;
+.bandnames img{
+  max-width: 90%;
   height: auto;
 }
 
-/* GreenDay Page
-*/
-#greenD{
+.bandPic{
   float: left;
   max-width: 50%;
   height: auto;
-}
-
-#greenPara p{
-  text-indent: 20px;
-  font-size: 20px;
-}
-
-/*Sum 41 Page
-*/
-#sumPic{
-  float: left;
-  max-width: 60%;
-  height: auto;
   margin-right:20px;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
-#sumPara{
-  text-indent: 20px;
-  font-size: 20px;
+#greenLogo{
+  float: left;
+}
+
+#yellowLogo{
+  float: left;
+  margin-right: 10px;
+}
+
+/* GreenDay Picture
+*/
+#greendPic{
+  float: left;
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
 }
