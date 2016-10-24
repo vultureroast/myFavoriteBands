@@ -1,19 +1,24 @@
 body{
   background: #ECE9E6; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ddd3c9 , #f4f1f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #ddd3c9 , #f4f1f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  padding: 0;
 }
 
 header{
   text-align: center;
   font-size: 25px;
 }
+
+/* Navigation Bar*/
 .nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .nav li{
@@ -31,59 +36,63 @@ header{
 
 .nav a:hover{
   background-color: #ff0000;
-  color: white
+  color: white;
+  transition: 400ms;
 }
 
 .active{
-  background-color: #ff0000;
+  background-color: #b50000;
   color: white
 }
 
+/*Styling for the Band info on the band pages*/
 .bandInfo{
   text-indent: 20px;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 0 20px 0 20px;
 }
 
 .bandInfoUnder{
   clear: left;
   text-indent: 20px;
-  font-size: 20px;
+  font-size: 23px;
+  padding: 0 20px 0 20px;
 }
 
+/*Styling for Band logos on home page*/
 .bandnames{
   list-style-type: none;
 }
 
 .bandnames img{
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+/*Styling for band picture on band pages*/
 .bandPic{
   float: left;
   max-width: 50%;
   height: auto;
   margin-right:20px;
   margin-bottom: 20px;
+  margin-left: 20px;
   border-radius: 8px;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
-#greenLogo{
-  float: left;
-}
-
-#yellowLogo{
-  float: left;
-  margin-right: 10px;
-}
-
-/* GreenDay Picture
-*/
+/* Greenday Band Picture*/
 #greendPic{
   float: left;
   max-width: 50%;
   height: auto;
   margin-bottom: 20px;
   margin-right: 20px;
+  margin-left: 20px;
   border-radius: 8px;
 }
